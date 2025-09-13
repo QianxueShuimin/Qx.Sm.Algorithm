@@ -5,7 +5,7 @@
 
 //题目顺序为洛谷的训练题单
 void B2002() {
-	std::cout << "Hello,World!" << std::endl; //使用 cout 输出 Hello,World! 的内容
+	std::cout << "Hello,World!" << std::endl;   //使用 cout 输出 Hello,World! 的内容
 }
 
 void B2025() {
@@ -41,4 +41,10 @@ void P1000() {
     std::cout << "##########################################    #----------# " << std::endl;
     std::cout << "#.#..#....#..##.#..#....#..##.#..#....#..#    #----------# " << std::endl;
     std::cout << "##########################################    ############ " << std::endl;
+}
+
+void P1001() {
+    int a, b; //创建两个整数变量(int) a 和 b
+    std::cin >> a >> b; //使用 cin 读取输入的值 给 a 与 b 进行赋值
+    std::cout << a + b << std::endl;    // 输出 a + b 的结果
 }
