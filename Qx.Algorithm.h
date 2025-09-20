@@ -3,6 +3,7 @@
 #include <iostream>
 #include <iomanip>
 #include <cmath>
+#include <math.h>
 
 //题目顺序为洛谷的训练题单
 void B2002() {
@@ -211,4 +212,64 @@ void P3954() {
     std::cin >> a >> b >> c;
 
     std::cout << (a * 0.2) + (b * 0.3) + (c * 0.5) << std::endl;
+}
+
+void P2433() {
+    int Question_Number = 0;
+    std::cin >> Question_Number;
+
+    if (Question_Number == 1) {
+        std::cout << "I love Luogu!" << std::endl;
+    }
+    else if (Question_Number == 2) {
+        std::cout << "6 4" << std::endl;
+    }
+    else if (Question_Number == 3) {
+        std::cout << 3 << std::endl;
+        std::cout << 12 << std::endl;
+        std::cout << 2 << std::endl;
+    }
+    else if (Question_Number == 4) {
+        std::cout << std::fixed << std::setprecision(3) << 500.0 / 3 << std::endl;
+    }
+    else if (Question_Number == 5) {
+        std::cout << 15 << std::endl;
+    }
+    else if (Question_Number == 6) {
+        double k = sqrt(117);
+        std::cout << k << std::endl;
+    }
+    else if (Question_Number == 7) {
+        std::cout << "110\n" << "90\n" << "0\n";
+    }
+    else if (Question_Number == 8) {
+        double Pi = 3.141593;
+        double Circle_Circumference = Pi * 10;
+        double Circle_Area = Pi * 25;
+        double Circle_Volume = (500.0 / 3) * Pi;
+        std::cout << Circle_Circumference << std::endl;
+        std::cout << Circle_Area << std::endl;
+        std::cout << Circle_Volume << std::endl;
+    }
+    else if (Question_Number == 9) {
+        std::cout << 22 << std::endl;
+    }
+    else if (Question_Number == 10) {
+        std::cout << 9 << std::endl;
+    }
+    else if (Question_Number == 11) {
+        std::cout << 100.0 / 3 << std::endl;
+    }
+    else if (Question_Number == 12) {
+        std::cout << "13\nR";
+    }
+    else if (Question_Number == 13) {
+        double Pi = 3.141593;
+        double Cube_Edge_length = pow((4256 * Pi) / 3, 1.0 / 3);
+        std::cout << std::fixed << std::setprecision(0) << Cube_Edge_length << std::endl;
+    }
+
+    else if (Question_Number == 14) {
+        std::cout << 50 << std::endl;
+    }
 }
