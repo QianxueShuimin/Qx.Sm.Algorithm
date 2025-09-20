@@ -216,13 +216,13 @@ void P3954() {
 
 void P2433() {
     int Question_Number = 0;
-    std::cin >> Question_Number;
+    std::cin >> Question_Number;    //判断算法要算什么()
 
     if (Question_Number == 1) {
         std::cout << "I love Luogu!" << std::endl;
     }
     else if (Question_Number == 2) {
-        std::cout << "6 4" << std::endl;
+        std::cout << "6 4" << std::endl;    //注意空格
     }
     else if (Question_Number == 3) {
         std::cout << 3 << std::endl;
@@ -240,9 +240,10 @@ void P2433() {
         std::cout << k << std::endl;
     }
     else if (Question_Number == 7) {
-        std::cout << "110\n" << "90\n" << "0\n";
+        std::cout << "110\n" << "90\n" << "0\n";    //换行\n
     }
     else if (Question_Number == 8) {
+        //小小数学，拿下
         double Pi = 3.141593;
         double Circle_Circumference = Pi * 10;
         double Circle_Area = Pi * 25;
@@ -266,7 +267,7 @@ void P2433() {
     else if (Question_Number == 13) {
         double Pi = 3.141593;
         double Cube_Edge_length = pow((4256 * Pi) / 3, 1.0 / 3);
-        std::cout << std::fixed << std::setprecision(0) << Cube_Edge_length << std::endl;
+        std::cout << std::fixed << std::setprecision(0) << Cube_Edge_length << std::endl;   //熟悉吧
     }
 
     else if (Question_Number == 14) {
